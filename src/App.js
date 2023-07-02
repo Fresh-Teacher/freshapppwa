@@ -44,11 +44,11 @@ function App() {
         <h2>Fresh Teacher's Technologies</h2>
         {installable &&
           <button className="install-button" onClick={handleInstallClick}>
-            INSTALL FRESH TEACHER'S APP 
+            <strong>INSTALL FRESH TEACHER'S APP 📥</strong>
           </button>
         }
         <p>
-          <a href={repo} className="App-link">Go to Fresh Teacher's Library </a>
+          <a href={repo} className="App-link"><b><em>Go to Fresh Teacher's Library 📚</em> </b></a>
         </p>
       </header>
     </div>
